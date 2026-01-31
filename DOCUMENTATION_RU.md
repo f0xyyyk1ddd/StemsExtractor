@@ -616,6 +616,10 @@ StemsExtractor/
 
 ## 📝 Лицензия и благодарности
 
+### Лицензия проекта
+
+- **GNU General Public License v3 (GPLv3)** — лицензия Stems Extractor Pro.
+
 ### Используемые технологии
 
 - **[Spleeter](https://github.com/deezer/spleeter)** — библиотека разделения аудио от Deezer Research (MIT License)

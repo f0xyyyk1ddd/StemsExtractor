@@ -19,7 +19,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/platform-macOS%20|%20Windows%20|%20Linux-lightgrey.svg" alt="Platform">
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/license-GPLv3-green.svg" alt="License">
 </p>
 
 ---
@@ -59,7 +59,7 @@ Built with [Spleeter](https://github.com/deezer/spleeter) by Deezer Research, it
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/StemsExtractor.git
+git clone https://github.com/f0xyyyk1ddd/StemsExtractor.git
 cd StemsExtractor
 
 # Create virtual environment
@@ -70,16 +70,6 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 pip install PyQt5 static-ffmpeg
 ```
-
-### Manual FFmpeg Installation (if needed)
-
-**macOS:**
-```bash
-brew install ffmpeg
-```
-
-**Windows:**
-Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add to PATH.
 
 ---
 
@@ -104,13 +94,6 @@ python cli.py "song.mp3"
 
 # With options
 python cli.py "song.mp3" --stems 4 --output "my_output"
-```
-
-### Web Interface
-
-```bash
-python backend/main.py
-# Open http://127.0.0.1:8000
 ```
 
 ---
@@ -189,7 +172,7 @@ build_windows.bat
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3 - see the [LICENSE](LICENSE) file for details.
 
 ---
 

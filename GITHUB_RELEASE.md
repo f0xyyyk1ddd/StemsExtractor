@@ -13,12 +13,12 @@
 ---
 
 ## Шаг 2: Подключение локального репозитория
-
+it re
 После создания репозитория выполните команды:
 
 ```bash
 # Замените YOUR_USERNAME на ваше имя пользователя GitHub
-git remote add origin https://github.com/YOUR_USERNAME/StemsExtractor.git
+gmote add origin https://github.com/YOUR_USERNAME/StemsExtractor.git
 
 # Переименуем ветку в main (если нужно)
 git branch -M main
@@ -89,6 +89,10 @@ python gui.py
 
 - [Full Documentation (Russian)](DOCUMENTATION_RU.md)
 - [Quick Start (Russian)](QUICK_START_RU.md)
+
+## 📄 License
+
+This project is licensed under the GNU General Public License v3 (GPLv3).
 
 ---
 
