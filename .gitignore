@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+output/*
+!output/.gitkeep
+pretrained_models/*
+!pretrained_models/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+
+# FFmpeg binary
+ffmpeg
+ffmpeg.exe
+ffprobe
+ffprobe.exe
+ffmpeg.zip
+
+# Spleeter models cache
+.cache/
+pretrained_models/
+
+# PyInstaller
+*.spec.bak
+build/
+dist/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Iconset temp
+*.iconset/

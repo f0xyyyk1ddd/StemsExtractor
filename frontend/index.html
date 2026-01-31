@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stems Extractor AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="icon">🎵</span> STEMS<span class="highlight">EXTRACTOR</span>
+            </div>
+            <p class="subtitle">Искусственный интеллект для разделения музыки</p>
+        </header>
+
+        <main>
+            <div class="upload-section" id="drop-zone">
+                <div class="upload-content">
+                    <div class="icon-large">📂</div>
+                    <h2>Перетащите аудио сюда</h2>
+                    <p>или нажмите для выбора файла</p>
+                    <input type="file" id="file-input" accept="audio/*" hidden>
+                    <div class="supported-formats">MP3, WAV, FLAC, M4A</div>
+                </div>
+            </div>
+
+            <div class="options-section">
+                <label class="toggle-container">
+                    <span>Количество дорожек (Stems)</span>
+                    <div class="stems-selector">
+                        <button class="stem-option active" data-stems="2">2 (Inst/Vocal)</button>
+                        <button class="stem-option" data-stems="4">4 (Bass/Drums/Voc/Other)</button>
+                        <button class="stem-option" data-stems="5">5 (+ Piano)</button>
+                    </div>
+                </label>
+            </div>
+
+            <div class="process-section hidden" id="process-section">
+                <div class="status-bar">
+                    <span id="status-text">Загрузка...</span>
+                    <span id="percent-text">0%</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+
+            <div class="results-section hidden" id="results-section">
+                <h3>Результат</h3>
+                <div class="stems-list" id="stems-list">
+                    <!-- Stems will be added here -->
+                </div>
+                <button class="btn-primary" id="reset-btn">Обработать другой файл</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by AI Spleeter • Build for Creators</p>
+        </footer>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
